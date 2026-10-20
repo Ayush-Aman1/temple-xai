@@ -1,0 +1,13 @@
+{
+  "id": "__USER__/templexai-j3-detector",
+  "title": "templexai-j3-detector",
+  "code_file": "detector.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": ["__USER__/templexai-data", "__USER__/templexai-boxes"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

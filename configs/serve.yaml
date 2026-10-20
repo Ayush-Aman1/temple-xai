@@ -1,0 +1,6 @@
+# Serving selection. The serving classifier is the fusion model (image backbone + distilled-detector component vector).
+backbone_run: artifacts/j2/A_efficientnet_b0
+p4_dir: artifacts/p4
+detector_weights: artifacts/j3/detector_best.pt
+detector_metrics: artifacts/j3/metrics.json
+device: auto

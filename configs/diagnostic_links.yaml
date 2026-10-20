@@ -1,0 +1,56 @@
+knowledge_mode: MACHINE_COMPILED
+note: component -> tradition evidence links, each with the fetched sentence supporting it
+links:
+- component: shikhara
+  tradition: Nagara
+  url: https://en.wikipedia.org/wiki/Shikhara
+  retrieved: '2026-10-21'
+  quote: refers to the rising tower in the Hindu temple architecture of North India
+- component: vimana
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Dravidian_architecture
+  retrieved: '2026-10-21'
+  quote: Dravidian architecture uses shorter and more pyramidal towers, called vimana, over the garbhagriha or sanctuary
+- component: vimana
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Western_Chalukya_architecture
+  retrieved: '2026-10-21'
+  quote: the Chalukyan builders modified the pure dravida tower by reducing the height of each stepped storey and multiplying
+    their number.
+- component: gopuram
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Gopuram
+  retrieved: '2026-10-21'
+  quote: a monumental, usually ornate entrance tower of a Hindu temple in the Dravidian architecture of South India and Sri
+    Lanka
+- component: mandapa
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Mandapa
+  retrieved: '2026-10-21'
+  quote: a distinctly thousand pillared hall close to the vimana of the Koil which forms a distinct part of the site plan
+    of classical Dravidian architecture
+- component: mandapa
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Hoysala_architecture
+  retrieved: '2026-10-21'
+  quote: The shape of the open mantapa is best described as staggered-square and is the style used in most Hoysala temples.
+- component: pillar
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Hoysala_architecture
+  retrieved: '2026-10-21'
+  quote: supported by lathe turned (circular or bell-shaped) pillars
+- component: jagati_base
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Hoysala_architecture
+  retrieved: '2026-10-21'
+  quote: The jagati which is in unity with the rest of the temple follows a star-shaped design
+- component: jagati_base
+  tradition: Nagara
+  url: https://en.wikipedia.org/wiki/Nagara_Style
+  retrieved: '2026-10-21'
+  quote: Developed in North India, this style of temple is built on a simple stone platform.
+- component: amalaka
+  tradition: Nagara
+  url: https://en.wikipedia.org/wiki/Amalaka
+  retrieved: '2026-10-21'
+  quote: They were to remain standard in most of India, in the Nagara and Kalinga architecture styles

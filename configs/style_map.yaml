@@ -1,0 +1,47 @@
+# Style value -> operational tradition. First matching rule wins; match = lowercase substring of the
+# normalised raw value (Wikidata P149 label, Wikipedia infobox "architecture" value, Commons category name).
+# Every rule carries the Wikipedia page used to verify the mapping; `python -m templexai.data.verify_style_map`
+# fetches that page and keeps the rule ONLY if the page text contains one of verify_keywords (the quoted
+# sentence is stored in docs/METHOD.md). Unverified rules are dropped -> "no evidence".
+# Generic values ("Hindu temple architecture", "Indian architecture", "rock-cut architecture") carry no
+# evidence and are listed under `generic`. Values mapped to EXCLUDE put the temple outside the taxonomy.
+taxonomy: [Nagara, Dravida, Deccan_Vesara]
+generic:
+  - hindu temple architecture
+  - hindu architecture
+  - hindu temple
+  - indian architecture
+  - indian rock-cut architecture
+  - rock-cut architecture
+  - rock-cut architecture in india
+  - architecture of india
+  - north india
+  - south india
+  - temple architecture
+rules:
+  # ---- Deccan / Vesara (checked first: "Karnata Dravida" must not fall into Dravida) ----
+  - {id: karnata_dravida, match: ["karnata dravida", "karnata dravid"], tradition: Deccan_Vesara, source_page: "Hindu temple architecture", verify_keywords: ["Karnata Dravida", "Vesara"]}
+  - {id: vesara,          match: ["vesara"],                            tradition: Deccan_Vesara, source_page: "Hindu temple architecture", verify_keywords: ["Vesara"]}
+  - {id: hoysala,         match: ["hoysala"],                           tradition: Deccan_Vesara, source_page: "Hoysala architecture",       verify_keywords: ["Vesara", "Karnata Dravida", "Deccan"]}
+  - {id: western_chalukya,match: ["western chalukya", "later chalukya"],tradition: Deccan_Vesara, source_page: "Western Chalukya architecture", verify_keywords: ["Vesara", "Karnata Dravida", "Deccan"]}
+  - {id: badami_chalukya, match: ["badami chalukya", "early chalukya", "chalukya architecture"], tradition: Deccan_Vesara, source_page: "Badami Chalukya architecture", verify_keywords: ["Vesara", "Deccan"]}
+  - {id: kakatiya,        match: ["kakatiya"],                          tradition: Deccan_Vesara, source_page: "Kakatiya architecture",     verify_keywords: ["Vesara", "Deccan"]}
+  - {id: deccan,          match: ["deccan"],                            tradition: Deccan_Vesara, source_page: "Hindu temple architecture", verify_keywords: ["Deccan"]}
+  # ---- Dravida ----
+  - {id: dravidian,       match: ["dravidian", "dravida"],              tradition: Dravida, source_page: "Dravidian architecture", verify_keywords: ["Dravidian"]}
+  - {id: tamil,           match: ["tamil architecture"],                tradition: Dravida, source_page: "Dravidian architecture", verify_keywords: ["Tamil"]}
+  - {id: pallava,         match: ["pallava"],                           tradition: Dravida, source_page: "Pallava architecture",   verify_keywords: ["Dravidian"]}
+  - {id: chola,           match: ["chola"],                             tradition: Dravida, source_page: "Chola architecture",     verify_keywords: ["Dravidian"]}
+  - {id: pandya,          match: ["pandya", "pandyan"],                 tradition: Dravida, source_page: "Pandya dynasty",         verify_keywords: ["Dravidian"]}
+  - {id: nayak,           match: ["nayak", "nayaka"],                   tradition: Dravida, source_page: "Madurai Nayak dynasty",  verify_keywords: ["Dravidian"]}
+  - {id: vijayanagara,    match: ["vijayanagara"],                      tradition: Dravida, source_page: "Vijayanagara architecture", verify_keywords: ["Dravidian"]}
+  # ---- Nagara ----
+  - {id: nagara,          match: ["nagara"],                            tradition: Nagara, source_page: "Hindu temple architecture", verify_keywords: ["Nagara"]}
+  - {id: kalinga,         match: ["kalinga", "odisha architecture", "orissan"], tradition: Nagara, source_page: "Nagara architecture", verify_keywords: ["Odisha"]}
+  - {id: maru_gurjara,    match: ["maru-gurjara", "maru gurjara", "solanki"], tradition: Nagara, source_page: "Nagara architecture", verify_keywords: ["Solanki"]}
+  - {id: chandela,        match: ["chandela", "khajuraho"],             tradition: Nagara, source_page: "Khajuraho Group of Monuments", verify_keywords: ["Nagara"]}
+  - {id: latina,          match: ["latina", "bhumija", "phamsana"],     tradition: Nagara, source_page: "Hindu temple architecture", verify_keywords: ["Nagara"]}
+  # ---- Regional or non-taxonomy styles -> EXCLUDE (outside the 3-class operational taxonomy) ----
+  - {id: bengal_terracotta, match: ["pancharatna", "navaratna", "ek-ratna", "at-chala", "char-chala", "dalan", "jor-bangla", "saptadash", "panchabimsati", "ratna", "bengal temple", "bengali"], tradition: EXCLUDE, source_page: "Bengal temple architecture", verify_keywords: ["Bengal"]}
+  - {id: kerala,          match: ["kerala architecture", "architecture of kerala", "kerala style", "kerala temple architecture"],                            tradition: EXCLUDE, source_page: "Architecture of Kerala", verify_keywords: ["Kerala"]}
+  - {id: other_excluded,  match: ["mughal", "pagoda", "greco-buddhist", "buddhist", "jain", "islamic", "indo-saracenic", "colonial"], tradition: EXCLUDE, source_page: "Hindu temple architecture", verify_keywords: ["Hindu"]}

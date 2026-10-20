@@ -1,0 +1,25 @@
+{
+ "detector_mode": "DISTILLED",
+ "gold_eval": "UNAVAILABLE",
+ "compute": "local_mps",
+ "agreement_with_zeroshot_val": {
+  "mAP50": 0.3923076494284804,
+  "mAP50_95": 0.3017451528914106,
+  "precision": 0.4135731972074837,
+  "recall": 0.4523656624081886,
+  "note": "agreement with zero-shot pseudo-labels on val temples, NOT accuracy"
+ },
+ "n_train_images": 5237,
+ "n_val_images": 1066,
+ "thresholds": {
+  "shikhara": 0.3114,
+  "vimana": 0.3454,
+  "gopuram": 0.2797,
+  "mandapa": 0.3489,
+  "pillar": 0.3233,
+  "jagati_base": 0.3274,
+  "amalaka": 0.317
+ },
+ "weights_init": "yolo11n.pt",
+ "epochs": 10
+}

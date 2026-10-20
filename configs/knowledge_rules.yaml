@@ -1,0 +1,255 @@
+knowledge_mode: MACHINE_COMPILED
+retrieved: '2026-10-20'
+note: Co-occurrence rules from fetched Wikipedia sentences; each is evidence that
+  a component is discussed with a tradition, not a verdict. Used as soft features
+  by the knowledge-informed variants; weights are learned from data, never taken from
+  this file.
+rules:
+- component: shikhara
+  tradition: Nagara
+  url: https://en.wikipedia.org/wiki/Hindu_temple_architecture
+  page: Hindu temple architecture
+  retrieved: '2026-10-20'
+  quote: According to some art historians, the roots of Vesara style can be traced
+    to the Chalukyas of Badami (500-753AD) whose Early Chalukya or Badami Chalukya
+    …
+- component: shikhara
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Hindu_temple_architecture
+  page: Hindu temple architecture
+  retrieved: '2026-10-20'
+  quote: According to some art historians, the roots of Vesara style can be traced
+    to the Chalukyas of Badami (500-753AD) whose Early Chalukya or Badami Chalukya
+    …
+- component: shikhara
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Hindu_temple_architecture
+  page: Hindu temple architecture
+  retrieved: '2026-10-20'
+  quote: According to some art historians, the roots of Vesara style can be traced
+    to the Chalukyas of Badami (500-753AD) whose Early Chalukya or Badami Chalukya
+    …
+- component: vimana
+  tradition: Nagara
+  url: https://en.wikipedia.org/wiki/Hindu_temple_architecture
+  page: Hindu temple architecture
+  retrieved: '2026-10-20'
+  quote: According to some art historians, the roots of Vesara style can be traced
+    to the Chalukyas of Badami (500-753AD) whose Early Chalukya or Badami Chalukya
+    …
+- component: vimana
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Hindu_temple_architecture
+  page: Hindu temple architecture
+  retrieved: '2026-10-20'
+  quote: According to some art historians, the roots of Vesara style can be traced
+    to the Chalukyas of Badami (500-753AD) whose Early Chalukya or Badami Chalukya
+    …
+- component: vimana
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Hindu_temple_architecture
+  page: Hindu temple architecture
+  retrieved: '2026-10-20'
+  quote: According to some art historians, the roots of Vesara style can be traced
+    to the Chalukyas of Badami (500-753AD) whose Early Chalukya or Badami Chalukya
+    …
+- component: vimana
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Shikhara
+  page: Shikhara
+  retrieved: '2026-10-20'
+  quote: The southern vimana is not to be confused with the elaborate gateway-towers
+    of south Indian temples, called gopuram, which are often taller and more prominent
+    …
+- component: gopuram
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Shikhara
+  page: Shikhara
+  retrieved: '2026-10-20'
+  quote: The southern vimana is not to be confused with the elaborate gateway-towers
+    of south Indian temples, called gopuram, which are often taller and more prominent
+    …
+- component: shikhara
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Shikhara
+  page: Shikhara
+  retrieved: '2026-10-20'
+  quote: By at least 600 CE in Odisha, and perhaps somewhat later in the Deccan Plateau
+    and West India, the Latina form of the shikhara is …
+- component: amalaka
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Shikhara
+  page: Shikhara
+  retrieved: '2026-10-20'
+  quote: By at least 600 CE in Odisha, and perhaps somewhat later in the Deccan Plateau
+    and West India, the Latina form of the shikhara is …
+- component: shikhara
+  tradition: Nagara
+  url: https://en.wikipedia.org/wiki/Shikhara
+  page: Shikhara
+  retrieved: '2026-10-20'
+  quote: == Major styles == Shikharas form an element in the many styles of Hindu
+    temple architecture, of which the four most common are Nagara, Vesara, …
+- component: shikhara
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Shikhara
+  page: Shikhara
+  retrieved: '2026-10-20'
+  quote: == Major styles == Shikharas form an element in the many styles of Hindu
+    temple architecture, of which the four most common are Nagara, Vesara, …
+- component: gopuram
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Gopuram
+  page: Gopuram
+  retrieved: '2026-10-20'
+  quote: A gopuram or gopura is a monumental, usually ornate entrance tower of a Hindu
+    temple in the Dravidian architecture of South India and Sri Lanka.
+- component: vimana
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Mandapa
+  page: Mandapa
+  retrieved: '2026-10-20'
+  quote: In Tamil, this platform is the Aayiram Kaal Mandapam – a distinctly thousand
+    pillared hall close to the vimana of the Koil which forms a …
+- component: mandapa
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Mandapa
+  page: Mandapa
+  retrieved: '2026-10-20'
+  quote: In Tamil, this platform is the Aayiram Kaal Mandapam – a distinctly thousand
+    pillared hall close to the vimana of the Koil which forms a …
+- component: pillar
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Mandapa
+  page: Mandapa
+  retrieved: '2026-10-20'
+  quote: In Tamil, this platform is the Aayiram Kaal Mandapam – a distinctly thousand
+    pillared hall close to the vimana of the Koil which forms a …
+- component: jagati_base
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Mandapa
+  page: Mandapa
+  retrieved: '2026-10-20'
+  quote: In Tamil, this platform is the Aayiram Kaal Mandapam – a distinctly thousand
+    pillared hall close to the vimana of the Koil which forms a …
+- component: mandapa
+  tradition: Nagara
+  url: https://en.wikipedia.org/wiki/Mandapa
+  page: Mandapa
+  retrieved: '2026-10-20'
+  quote: == Gallery == == See also == Pendopo Wedding mandapa Zayat == Notes == ==
+    External links == Photo of four-pillared Kakatiya mandapa Photo of …
+- component: pillar
+  tradition: Nagara
+  url: https://en.wikipedia.org/wiki/Mandapa
+  page: Mandapa
+  retrieved: '2026-10-20'
+  quote: == Gallery == == See also == Pendopo Wedding mandapa Zayat == Notes == ==
+    External links == Photo of four-pillared Kakatiya mandapa Photo of …
+- component: shikhara
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Amalaka
+  page: Amalaka
+  retrieved: '2026-10-20'
+  quote: Some early temples in the Deccan, such as the 7th-century Lakshamana temple
+    in brick at Sirpur, have amalakas at the corners of some level of …
+- component: amalaka
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Amalaka
+  page: Amalaka
+  retrieved: '2026-10-20'
+  quote: Some early temples in the Deccan, such as the 7th-century Lakshamana temple
+    in brick at Sirpur, have amalakas at the corners of some level of …
+- component: shikhara
+  tradition: Nagara
+  url: https://en.wikipedia.org/wiki/Dravidian_architecture
+  page: Dravidian architecture
+  retrieved: '2026-10-20'
+  quote: In contrast with North Indian temple styles, Dravidian architecture uses
+    shorter and more pyramidal towers, called vimana, over the garbhagriha or sanctuary,
+    where the north …
+- component: shikhara
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Dravidian_architecture
+  page: Dravidian architecture
+  retrieved: '2026-10-20'
+  quote: In contrast with North Indian temple styles, Dravidian architecture uses
+    shorter and more pyramidal towers, called vimana, over the garbhagriha or sanctuary,
+    where the north …
+- component: vimana
+  tradition: Nagara
+  url: https://en.wikipedia.org/wiki/Dravidian_architecture
+  page: Dravidian architecture
+  retrieved: '2026-10-20'
+  quote: In contrast with North Indian temple styles, Dravidian architecture uses
+    shorter and more pyramidal towers, called vimana, over the garbhagriha or sanctuary,
+    where the north …
+- component: vimana
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Dravidian_architecture
+  page: Dravidian architecture
+  retrieved: '2026-10-20'
+  quote: In contrast with North Indian temple styles, Dravidian architecture uses
+    shorter and more pyramidal towers, called vimana, over the garbhagriha or sanctuary,
+    where the north …
+- component: gopuram
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Dravidian_architecture
+  page: Dravidian architecture
+  retrieved: '2026-10-20'
+  quote: Larger modern Dravidian style temples, however, include one or more high
+    gopura or gatehouse entrances to the compound as their dominating feature; large
+    temples have …
+- component: gopuram
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Dravidian_architecture
+  page: Dravidian architecture
+  retrieved: '2026-10-20'
+  quote: In the 14th century the kings continued to build Vesara or Deccan style monuments
+    but later incorporated dravida-style gopurams to meet their ritualistic needs.
+- component: mandapa
+  tradition: Dravida
+  url: https://en.wikipedia.org/wiki/Vesara
+  page: Vesara
+  retrieved: '2026-10-20'
+  quote: '== Description == The Vesara architecture departs from the Dravida architecture
+    in several key conceptual and experiential ways: it projects the bhadra; widens
+    the sanctum …'
+- component: mandapa
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Vesara
+  page: Vesara
+  retrieved: '2026-10-20'
+  quote: '== Description == The Vesara architecture departs from the Dravida architecture
+    in several key conceptual and experiential ways: it projects the bhadra; widens
+    the sanctum …'
+- component: vimana
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Vesara
+  page: Vesara
+  retrieved: '2026-10-20'
+  quote: Like the southern vimana superstructure, the Vesara equivalent is strongly
+    divided into storeys or steps, but there are more of them, and the kapota roof
+    …
+- component: pillar
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Hoysala_architecture
+  page: Hoysala architecture
+  retrieved: '2026-10-20'
+  quote: Most Hoysala temples have a plain covered entrance porch supported by lathe
+    turned (circular or bell-shaped) pillars which were sometimes further carved with
+    deep fluting …
+- component: jagati_base
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Hoysala_architecture
+  page: Hoysala architecture
+  retrieved: '2026-10-20'
+  quote: The jagati which is in unity with the rest of the temple follows a star-shaped
+    design and the walls of the temple follow a zig-zag …
+- component: mandapa
+  tradition: Deccan_Vesara
+  url: https://en.wikipedia.org/wiki/Hoysala_architecture
+  page: Hoysala architecture
+  retrieved: '2026-10-20'
+  quote: The open mantapa which serves the purpose of an outer hall (outer mantapa)
+    is a regular feature in larger Hoysala temples leading to an inner …

@@ -1,0 +1,152 @@
+{
+ "summary": {
+  "run": "A_mobilenetv3_large_100_s2",
+  "variant": "A",
+  "backbone": "mobilenetv3_large_100",
+  "seed": 2,
+  "best_val_macro_f1": 0.712661299924818,
+  "test": {
+   "n": 940,
+   "accuracy": 0.8202127659574469,
+   "macro_f1": 0.704066193853428,
+   "weighted_f1": 0.8288361249434133
+  },
+  "device": "mps",
+  "compute": "local_mps",
+  "epochs_run": 3,
+  "seconds": 259.6,
+  "img_size": 192,
+  "n_train": 5723,
+  "n_val": 1134,
+  "n_test": 940
+ },
+ "test": {
+  "n": 940,
+  "accuracy": 0.8202127659574469,
+  "macro_f1": 0.704066193853428,
+  "weighted_f1": 0.8288361249434133,
+  "per_class": {
+   "Nagara": {
+    "precision": 0.47101449275362317,
+    "recall": 0.5803571428571429,
+    "f1-score": 0.52,
+    "support": 112.0
+   },
+   "Dravida": {
+    "precision": 0.9318518518518518,
+    "recall": 0.85578231292517,
+    "f1-score": 0.8921985815602836,
+    "support": 735.0
+   },
+   "Deccan_Vesara": {
+    "precision": 0.6062992125984252,
+    "recall": 0.8279569892473119,
+    "f1-score": 0.7,
+    "support": 93.0
+   },
+   "accuracy": 0.8202127659574469,
+   "macro avg": {
+    "precision": 0.6697218524013001,
+    "recall": 0.754698815009875,
+    "f1-score": 0.704066193853428,
+    "support": 940.0
+   },
+   "weighted avg": {
+    "precision": 0.8447346394374153,
+    "recall": 0.8202127659574469,
+    "f1-score": 0.8288361249434133,
+    "support": 940.0
+   }
+  },
+  "confusion": [
+   [
+    65,
+    37,
+    10
+   ],
+   [
+    66,
+    629,
+    40
+   ],
+   [
+    7,
+    9,
+    77
+   ]
+  ]
+ },
+ "val": {
+  "n": 1134,
+  "accuracy": 0.8042328042328042,
+  "macro_f1": 0.712661299924818,
+  "weighted_f1": 0.8030390781162218,
+  "per_class": {
+   "Nagara": {
+    "precision": 0.7044334975369458,
+    "recall": 0.5697211155378487,
+    "f1-score": 0.6299559471365639,
+    "support": 251.0
+   },
+   "Dravida": {
+    "precision": 0.8824289405684754,
+    "recall": 0.8963254593175853,
+    "f1-score": 0.8893229166666666,
+    "support": 762.0
+   },
+   "Deccan_Vesara": {
+    "precision": 0.5477707006369427,
+    "recall": 0.7107438016528925,
+    "f1-score": 0.6187050359712231,
+    "support": 121.0
+   },
+   "accuracy": 0.8042328042328042,
+   "macro avg": {
+    "precision": 0.711544379580788,
+    "recall": 0.7255967921694421,
+    "f1-score": 0.712661299924818,
+    "support": 1134.0
+   },
+   "weighted avg": {
+    "precision": 0.8073226766949045,
+    "recall": 0.8042328042328042,
+    "f1-score": 0.8030390781162218,
+    "support": 1134.0
+   }
+  },
+  "confusion": [
+   [
+    143,
+    67,
+    41
+   ],
+   [
+    49,
+    683,
+    30
+   ],
+   [
+    11,
+    24,
+    86
+   ]
+  ]
+ },
+ "log": [
+  {
+   "epoch": 0,
+   "train_loss": 0.6947077233412664,
+   "val_macro_f1": 0.6554413107384301
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.35393504381554747,
+   "val_macro_f1": 0.700884753777396
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.18556308560952137,
+   "val_macro_f1": 0.712661299924818
+  }
+ ]
+}

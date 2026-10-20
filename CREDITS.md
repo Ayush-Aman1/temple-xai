@@ -1,0 +1,18 @@
+# Credits (URL — licence)
+- Wikidata / Wikipedia / Wikimedia Commons text and metadata — https://www.wikidata.org (CC0), https://en.wikipedia.org (CC BY-SA 4.0), https://commons.wikimedia.org (per-image licences kept in images.csv)
+- timm — https://github.com/huggingface/pytorch-image-models — Apache-2.0
+- Grounding DINO tiny (IDEA-Research) — https://huggingface.co/IDEA-Research/grounding-dino-tiny — Apache-2.0
+- CLIP ViT-B/32 (OpenAI) — https://huggingface.co/openai/clip-vit-base-patch32 — MIT
+- Ultralytics YOLO — https://github.com/ultralytics/ultralytics — AGPL-3.0 (used as a dependency for training)
+- transformers — https://github.com/huggingface/transformers — Apache-2.0
+- X-NeSyL / EXPLANet (idea only, no code copied) — https://github.com/julessanchez/x-nesyl
+- pytorch-grad-cam (Jacob Gildenblat) — https://github.com/jacobgil/pytorch-grad-cam — MIT (Grad-CAM, `templexai/xai/gradcam.py`)
+- FastAPI — https://github.com/fastapi/fastapi — MIT; Uvicorn — https://github.com/encode/uvicorn — BSD-3-Clause
+- scikit-learn — https://github.com/scikit-learn/scikit-learn — BSD-3-Clause (gradient boosting part-model, metrics)
+- PyTorch / torchvision — https://github.com/pytorch/pytorch — BSD-3-Clause
+- OpenCV — https://github.com/opencv/opencv-python — Apache-2.0 (Grad-CAM overlays, blur)
+- Shapley-value attribution over components — Lundberg & Lee, SHAP, https://github.com/shap/shap (MIT): the method is implemented exactly in `templexai/xai/shap_components.py`; the shap package itself is not used (its TreeExplainer does not accept scikit-learn's multiclass GradientBoostingClassifier in the installed version)
+- React / ReactDOM — https://github.com/facebook/react — MIT; react-markdown — https://github.com/remarkjs/react-markdown — MIT; Vite — https://github.com/vitejs/vite — MIT; Tailwind CSS — https://github.com/tailwindlabs/tailwindcss — MIT; TypeScript — https://github.com/microsoft/TypeScript — Apache-2.0
+- Knowledge-layer text sources (snapshots in `data/knowledge_sources/`, retrieved 2026-10-21, each quote ≤ 25 words, CC BY-SA 4.0, Wikipedia contributors): https://en.wikipedia.org/wiki/Shikhara · /Vimana (read, not quoted) · /Gopuram · /Mandapa · /Amalaka · /Dravidian_architecture · /Vesara · /Hoysala_architecture · /Western_Chalukya_architecture · /Nagara_Style · /Kalinga_architecture · /Hindu_temple_architecture · /Garbhagriha · /Khajuraho_Group_of_Monuments · /Column · /Kakatiya_architecture · /Pallava_art_and_architecture · /Chola_art_and_architecture
+- Label Studio (add-on kits only, not a dependency) — https://github.com/HumanSignal/label-studio — Apache-2.0
+- Images shown in the UI/gallery keep per-image author and licence from `data/meta/images.csv` (PD, CC0, CC BY, CC BY-SA) and the Commons source URL.

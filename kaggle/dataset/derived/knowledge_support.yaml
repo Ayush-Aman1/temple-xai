@@ -1,0 +1,31 @@
+knowledge_mode: MACHINE_COMPILED
+retrieved: '2026-10-20'
+support:
+  shikhara:
+    Nagara: 3
+    Dravida: 3
+    Deccan_Vesara: 3
+  vimana:
+    Nagara: 2
+    Dravida: 4
+    Deccan_Vesara: 2
+  gopuram:
+    Nagara: 0
+    Dravida: 3
+    Deccan_Vesara: 1
+  mandapa:
+    Nagara: 1
+    Dravida: 2
+    Deccan_Vesara: 2
+  pillar:
+    Nagara: 1
+    Dravida: 1
+    Deccan_Vesara: 1
+  jagati_base:
+    Nagara: 0
+    Dravida: 1
+    Deccan_Vesara: 1
+  amalaka:
+    Nagara: 0
+    Dravida: 0
+    Deccan_Vesara: 2

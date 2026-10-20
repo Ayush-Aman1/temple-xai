@@ -1,0 +1,241 @@
+{
+ "generated": "2026-10-21",
+ "items": [
+  {
+   "path": "data/splits.csv",
+   "kind": "split",
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "detector_mode": "n/a",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "n/a",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "3bc1a27",
+   "date": "2026-10-21"
+  },
+  {
+   "path": "artifacts/j1/boxes_zeroshot.json",
+   "kind": "zero-shot boxes",
+   "metrics": {
+    "share_with_detection": {
+     "shikhara": 0.32180470680015605,
+     "vimana": 0.2657651800806137,
+     "gopuram": 0.3210245741776102,
+     "mandapa": 0.5131972435314004,
+     "pillar": 0.37511376934078794,
+     "jagati_base": 0.3940969964894032,
+     "amalaka": 0.3790144324535171
+    }
+   },
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "detector_mode": "ZEROSHOT",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "3bc1a27",
+   "date": "2026-10-21"
+  },
+  {
+   "path": "artifacts/j2/A_efficientnet_b0",
+   "kind": "classifier",
+   "run": "A_efficientnet_b0_s0",
+   "selected_by": "best val macro-F1 over seeds",
+   "metrics": {
+    "n": 940,
+    "accuracy": 0.8170212765957446,
+    "macro_f1": 0.7020451324251876,
+    "weighted_f1": 0.8269403852068368
+   },
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "detector_mode": "n/a",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "3bc1a27",
+   "date": "2026-10-21"
+  },
+  {
+   "path": "artifacts/j2/A_mobilenetv3_large_100",
+   "kind": "classifier",
+   "run": "A_mobilenetv3_large_100_s1",
+   "selected_by": "best val macro-F1 over seeds",
+   "metrics": {
+    "n": 940,
+    "accuracy": 0.7968085106382978,
+    "macro_f1": 0.6785627491885208,
+    "weighted_f1": 0.808825287960423
+   },
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "detector_mode": "n/a",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "3bc1a27",
+   "date": "2026-10-21"
+  },
+  {
+   "path": "artifacts/j2/B_efficientnet_b0",
+   "kind": "classifier",
+   "run": "B_efficientnet_b0_s0",
+   "selected_by": "best val macro-F1 over seeds",
+   "metrics": {
+    "n": 940,
+    "accuracy": 0.8021276595744681,
+    "macro_f1": 0.6713315339631128,
+    "weighted_f1": 0.8097473942630717
+   },
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "detector_mode": "ZEROSHOT",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "3bc1a27",
+   "date": "2026-10-21"
+  },
+  {
+   "path": "artifacts/j2/C_efficientnet_b0",
+   "kind": "classifier",
+   "run": "C_efficientnet_b0_s1",
+   "selected_by": "best val macro-F1 over seeds",
+   "metrics": {
+    "n": 940,
+    "accuracy": 0.8457446808510638,
+    "macro_f1": 0.7316938886351148,
+    "weighted_f1": 0.8493303073875799
+   },
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "detector_mode": "ZEROSHOT",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "3bc1a27",
+   "date": "2026-10-21"
+  },
+  {
+   "path": "artifacts/j2/D_efficientnet_b0",
+   "kind": "classifier",
+   "run": "D_efficientnet_b0_s1",
+   "selected_by": "best val macro-F1 over seeds",
+   "metrics": {
+    "n": 940,
+    "accuracy": 0.8393617021276596,
+    "macro_f1": 0.7245704495390388,
+    "weighted_f1": 0.8433769274700171
+   },
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "detector_mode": "ZEROSHOT",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "3bc1a27",
+   "date": "2026-10-21"
+  },
+  {
+   "path": "artifacts/j3/detector_best.pt",
+   "kind": "detector",
+   "metrics": {
+    "mAP50": 0.3923076494284804,
+    "mAP50_95": 0.3017451528914106,
+    "precision": 0.4135731972074837,
+    "recall": 0.4523656624081886,
+    "note": "agreement with zero-shot pseudo-labels on val temples, NOT accuracy"
+   },
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "detector_mode": "DISTILLED",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "3bc1a27",
+   "date": "2026-10-21"
+  },
+  {
+   "path": "artifacts/p4",
+   "kind": "fusion + part-based heads",
+   "detector_mode": "DISTILLED",
+   "metrics": {
+    "cnn_only": {
+     "acc": 0.8436170212765958,
+     "macro_f1": 0.7163232686916264
+    },
+    "fusion": {
+     "acc": 0.8297872340425533,
+     "macro_f1": 0.7135718813033743
+    },
+    "parts_mlp": {
+     "acc": 0.5478723404255319,
+     "macro_f1": 0.3861759434497121
+    },
+    "parts_gb": {
+     "acc": 0.5411347517730496,
+     "macro_f1": 0.4503549905573537
+    }
+   },
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "76f313c",
+   "date": "2026-10-21",
+   "stage": "BUILD"
+  },
+  {
+   "path": "experiments/results/explanations/summary.json",
+   "kind": "explanation evaluation (ground-truth-free)",
+   "detector_mode": "DISTILLED",
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "76f313c",
+   "date": "2026-10-21",
+   "stage": "BUILD"
+  },
+  {
+   "path": "experiments/results/ablation.csv",
+   "kind": "ablation",
+   "detector_mode": "DISTILLED",
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "76f313c",
+   "date": "2026-10-21",
+   "stage": "BUILD"
+  },
+  {
+   "path": "experiments/results/robustness.csv",
+   "kind": "robustness",
+   "detector_mode": "DISTILLED",
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "76f313c",
+   "date": "2026-10-21",
+   "stage": "BUILD"
+  },
+  {
+   "path": "templexai/knowledge/taxonomy.yaml",
+   "kind": "knowledge layer",
+   "label_mode": "RULE_BASED",
+   "knowledge_mode": "MACHINE_COMPILED",
+   "gold_eval": "UNAVAILABLE",
+   "compute": "local_mps",
+   "data_hash": "63eb7764e2562b78",
+   "git_commit": "76f313c",
+   "date": "2026-10-21",
+   "stage": "BUILD"
+  }
+ ]
+}

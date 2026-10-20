@@ -1,0 +1,106 @@
+# Hand-compiled from FETCHED snapshots in data/knowledge_sources/ (Wikipedia, CC BY-SA). Nothing here comes from memory:
+# every definition/cue is a paraphrase of the quotes listed with it; every quote must appear verbatim in the named
+# snapshot (checked by templexai.knowledge.validate). `links` say which tradition a component is evidence for, with
+# the sentence that supports the link. Run: python -m templexai.knowledge.compile_taxonomy
+components:
+  shikhara:
+    definition: The rising tower over the sanctum (garbhagriha) of a northern Hindu temple; the most prominent and visible part of the building. In the south the word names only the top stage of the vimana.
+    visual_cues: [tall tower rising over the sanctum, curved or curvilinear profile that tapers upward, miniature spires or spirelets attached to the faces in some forms, amalaka disk and finial at the top]
+    related: [amalaka, vimana, mandapa]
+    sources:
+      - {page: Shikhara, quote: "refers to the rising tower in the Hindu temple architecture of North India"}
+      - {page: Shikhara, quote: "is the most prominent and visible part of a Hindu temple of North India"}
+      - {page: Shikhara, quote: "The tower has miniature spires, in horizontal and vertical rows, all the way to the top, creating a grid-like effect on each face."}
+    links:
+      - {tradition: Nagara, page: Shikhara, quote: "refers to the rising tower in the Hindu temple architecture of North India"}
+  vimana:
+    definition: In South India the tower over the sanctum, in a shorter, more pyramidal, stepped form than the northern shikhara; in southern usage the word can name the whole sanctum building.
+    visual_cues: [shorter pyramidal tower over the sanctum, stepped storeys, dome and finial at the top]
+    related: [shikhara, gopuram, mandapa]
+    sources:
+      - {page: Shikhara, quote: "In South India, the equivalent term is vimana; unlike the shikhara, this refers to the whole building, including the sanctum beneath."}
+      - {page: Dravidian architecture, quote: "Dravidian architecture uses shorter and more pyramidal towers, called vimana, over the garbhagriha or sanctuary"}
+      - {page: Western Chalukya architecture, quote: "the Chalukyan builders modified the pure dravida tower by reducing the height of each stepped storey and multiplying their number."}
+    links:
+      - {tradition: Dravida, page: Dravidian architecture, quote: "Dravidian architecture uses shorter and more pyramidal towers, called vimana, over the garbhagriha or sanctuary"}
+      - {tradition: Deccan_Vesara, page: Western Chalukya architecture, quote: "the Chalukyan builders modified the pure dravida tower by reducing the height of each stepped storey and multiplying their number."}
+  gopuram:
+    definition: A monumental, ornate gateway tower at the entrance of a southern temple compound; in large southern temples it is often taller than the tower over the main shrine.
+    visual_cues: [multi-storeyed gateway tower, upper tiers repeating the lower ones at diminishing scale, dense sculpture and ornament, finials crowning the top, set in the enclosure wall]
+    related: [vimana, mandapa]
+    sources:
+      - {page: Gopuram, quote: "a monumental, usually ornate entrance tower of a Hindu temple in the Dravidian architecture of South India and Sri Lanka"}
+      - {page: Gopuram, quote: "Typically multi-storeyed, their upper tiers repeat lower-level features on a rhythmically diminishing scale."}
+      - {page: Gopuram, quote: "the gopuram is often the tallest structure in the temple complex and taller than the vimana tower over the main shrine"}
+    links:
+      - {tradition: Dravida, page: Gopuram, quote: "a monumental, usually ornate entrance tower of a Hindu temple in the Dravidian architecture of South India and Sri Lanka"}
+  mandapa:
+    definition: A pillared hall or pavilion used for public rituals, usually placed on the same axis between the temple entrance and the sanctuary. Open and closed forms exist.
+    visual_cues: [pillared hall or porch in front of the sanctum, open sides with pillars or closed walls, ornate carved ceiling]
+    related: [pillar, vimana, jagati_base]
+    sources:
+      - {page: Mandapa, quote: "is a pillared hall or pavilion for public rituals in Indian architecture"}
+      - {page: Mandapa, quote: "In temples, one or more mandapas very often lie between the sanctuary and the temple entrance, on the same axis."}
+      - {page: Hoysala architecture, quote: "The shape of the open mantapa is best described as staggered-square and is the style used in most Hoysala temples."}
+      - {page: Mandapa, quote: "a distinctly thousand pillared hall close to the vimana of the Koil which forms a distinct part of the site plan of classical Dravidian architecture"}
+    links:
+      - {tradition: Dravida, page: Mandapa, quote: "a distinctly thousand pillared hall close to the vimana of the Koil which forms a distinct part of the site plan of classical Dravidian architecture"}
+      - {tradition: Deccan_Vesara, page: Hoysala architecture, quote: "The shape of the open mantapa is best described as staggered-square and is the style used in most Hoysala temples."}
+  pillar:
+    definition: The supporting columns of the porch and halls. The fetched sources describe lathe-turned (round or bell-shaped) pillars in Hoysala temples, monolithic shafts in Western Chalukya mantapas, and richly ornamented pillars in Vijayanagara halls.
+    visual_cues: [row of columns supporting a roof, lathe-turned round or bell-shaped shafts, fluting and carved ornament, animal-bracket (yali) columns]
+    related: [mandapa]
+    sources:
+      - {page: Hoysala architecture, quote: "supported by lathe turned (circular or bell-shaped) pillars"}
+      - {page: Western Chalukya architecture, quote: "The pillars that support the roof of the mantapa are monolithic shafts from the base up to the neck of the capital."}
+      - {page: Mandapa, quote: "Often the hall was pillared and the pillars adorned with intricate carvings."}
+    links:
+      - {tradition: Deccan_Vesara, page: Hoysala architecture, quote: "supported by lathe turned (circular or bell-shaped) pillars"}
+  jagati_base:
+    definition: The raised platform on which a temple may stand. In Hoysala temples it follows the star-shaped outline of the building and doubles as a circumambulation path; northern temples are also described as built on a simple stone platform.
+    visual_cues: [raised stone platform around the base, star-shaped or zig-zag outline following the walls, steps up to the porch]
+    related: [mandapa]
+    sources:
+      - {page: Hoysala architecture, quote: "The temples may be built upon a platform raised by about a metre called a"}
+      - {page: Hoysala architecture, quote: "The jagati which is in unity with the rest of the temple follows a star-shaped design"}
+      - {page: Nagara Style, quote: "Developed in North India, this style of temple is built on a simple stone platform."}
+    links:
+      - {tradition: Deccan_Vesara, page: Hoysala architecture, quote: "The jagati which is in unity with the rest of the temple follows a star-shaped design"}
+      - {tradition: Nagara, page: Nagara Style, quote: "Developed in North India, this style of temple is built on a simple stone platform."}
+  amalaka:
+    definition: A segmented or ridged stone disk that sits at the top of a northern shikhara, below the finial. It stayed standard in the Nagara and Kalinga styles but not in southern Dravidian temples.
+    visual_cues: [ribbed stone disk near the top of a tower, finial or pot above the disk]
+    related: [shikhara]
+    sources:
+      - {page: Amalaka, quote: "a segmented or notched stone disk, usually with ridges on the rim, that sits on the top of a Hindu temple's shikhara or main tower"}
+      - {page: Amalaka, quote: "They were to remain standard in most of India, in the Nagara and Kalinga architecture styles"}
+      - {page: Amalaka, quote: "but not in the Dravidian architecture of South India"}
+    links:
+      - {tradition: Nagara, page: Amalaka, quote: "They were to remain standard in most of India, in the Nagara and Kalinga architecture styles"}
+traditions:
+  Nagara:
+    definition: The northern, central, western and eastern Indian temple style. Temples stand on a simple stone platform under one or more curved shikhara towers, with the sanctum directly below the highest tower and no boundary walls.
+    visual_cues: [curvilinear shikhara tower, simple stone platform, no enclosure wall, amalaka at the tower top]
+    related: [Dravida, Deccan_Vesara]
+    sources:
+      - {page: Nagara Style, quote: "Developed in North India, this style of temple is built on a simple stone platform."}
+      - {page: Nagara Style, quote: "The garbhagriha is always located directly below the highest Sikhara."}
+      - {page: Nagara Style, quote: "the Nagara Style is characterized by the absence of boundary walls"}
+      - {page: Vesara, quote: "Nagara emphasizes the four sides, Dravida a polygon (octagon), while Vesara compliments both with circular or elliptical forms."}
+  Dravida:
+    definition: The southern temple style, with shorter pyramidal vimana towers over the sanctum, gateway-towers (gopuras) on the quadrangular enclosures, and pillared halls as regular companions.
+    visual_cues: [pyramidal stepped vimana, gopura gateway towers, enclosure walls, pillared halls]
+    related: [Nagara, Deccan_Vesara]
+    sources:
+      - {page: Dravidian architecture, quote: "Dravidian architecture uses shorter and more pyramidal towers, called vimana, over the garbhagriha or sanctuary"}
+      - {page: Dravidian architecture, quote: "Gate-pyramids, Gopuras, which are the principal features in the quadrangular enclosures that surround the more notable temples."}
+      - {page: Dravidian architecture, quote: "Pillared halls (Chaultris or Chawadis; may also be referred to as Mandapas,) are used for many purposes and are the invariable accompaniments of these temples."}
+  Deccan_Vesara:
+    definition: The hybrid Deccan style (associated with the later Chalukyas and Hoysalas, mainly in Karnataka) that joins southern layouts to northern shape details; star-shaped or stepped plans, lathe-turned pillars and raised platforms are characteristic in the fetched sources. The label is an operational grouping; scholars debate the term.
+    visual_cues: [many-storeyed stepped tower, star-shaped or stepped-diamond plan, lathe-turned pillars, raised star-shaped platform]
+    related: [Nagara, Dravida]
+    sources:
+      - {page: Vesara, quote: "a hybrid form of Indian temple architecture that combines Dravidian Southern Indian site layouts with shape details characteristic of the Nagara style"}
+      - {page: Vesara, quote: "It is common in the surviving temples of the later Chalukyas and Hoysalas in the Deccan region, particularly Karnataka."}
+      - {page: Western Chalukya architecture, quote: "These include projections, recesses, and representations that can produce a variety of patterns and outlines, either stepped, stellate (star-shaped), or square."}
+      - {page: Vesara, quote: "Some scholars like Adam Hardy avoid using the term"}

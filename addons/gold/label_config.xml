@@ -1,0 +1,12 @@
+<View>
+  <Image name="image" value="$image" zoom="true"/>
+  <RectangleLabels name="label" toName="image">
+    <Label value="shikhara" background="#d97706"/>
+    <Label value="vimana" background="#0d9488"/>
+    <Label value="gopuram" background="#7c3aed"/>
+    <Label value="mandapa" background="#e11d48"/>
+    <Label value="pillar" background="#2563eb"/>
+    <Label value="jagati_base" background="#65a30d"/>
+    <Label value="amalaka" background="#ea580c"/>
+  </RectangleLabels>
+</View>

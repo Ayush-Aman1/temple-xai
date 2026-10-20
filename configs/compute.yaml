@@ -1,0 +1,3 @@
+compute: local
+local_device: auto
+kaggle_user: ayushaman707

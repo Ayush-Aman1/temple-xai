@@ -1,0 +1,42 @@
+Temple XAI Fallback Baseline Build Guide.md:1: # Temple XAI Fallback Baseline: Build Guide
+Temple XAI Fallback Baseline Build Guide.md:5: ## Purpose and strategy
+Temple XAI Fallback Baseline Build Guide.md:17: ### What already exists
+Temple XAI Fallback Baseline Build Guide.md:29: ## Architecture
+Temple XAI Fallback Baseline Build Guide.md:39: ### Folder layout
+Temple XAI Fallback Baseline Build Guide.md:56: ## Data sources
+Temple XAI Fallback Baseline Build Guide.md:74: ### Component annotations
+Temple XAI Fallback Baseline Build Guide.md:85: ## Download checklist
+Temple XAI Fallback Baseline Build Guide.md:89: ### Software
+Temple XAI Fallback Baseline Build Guide.md:109: ### Pretrained models (pre-cache once with a script so demos work offline)
+Temple XAI Fallback Baseline Build Guide.md:121: ### Repos and papers to keep in third_party/ and docs/refs/
+Temple XAI Fallback Baseline Build Guide.md:131: ### Data
+Temple XAI Fallback Baseline Build Guide.md:139: ## Pick list
+Temple XAI Fallback Baseline Build Guide.md:157: ## Build order and gates
+Temple XAI Fallback Baseline Build Guide.md:167: ## Running the coding agent
+Temple XAI Fallback Baseline Build Guide.md:183: ### Master context prompt (AGENTS.md)
+Temple XAI Fallback Baseline Build Guide.md:227: ## Module prompts
+Temple XAI Fallback Baseline Build Guide.md:231: ### P0. Scaffold
+Temple XAI Fallback Baseline Build Guide.md:233: Task P0: create the repo skeleton and shared contracts.\
+Temple XAI Fallback Baseline Build Guide.md:247: ### P1. Dataset builder
+Temple XAI Fallback Baseline Build Guide.md:249: Task P1: templexai/data/ scripts that build the dataset reproducibly.\
+Temple XAI Fallback Baseline Build Guide.md:271: ### P2. Tier A baselines
+Temple XAI Fallback Baseline Build Guide.md:273: Task P2: templexai/models/ and scripts/train_baseline.py.\
+Temple XAI Fallback Baseline Build Guide.md:287: ### P3. Zero-shot components and annotation
+Temple XAI Fallback Baseline Build Guide.md:289: Task P3: templexai/detect/zeroshot.py and the annotation workflow.\
+Temple XAI Fallback Baseline Build Guide.md:304: ### P4. Feature-aware fusion model (Tier B)
+Temple XAI Fallback Baseline Build Guide.md:306: Task P4: templexai/models/fusion.py.\
+Temple XAI Fallback Baseline Build Guide.md:319: ### P5. Explanation evaluation
+Temple XAI Fallback Baseline Build Guide.md:321: Task P5: templexai/xai/ and templexai/eval/explain_metrics.py.\
+Temple XAI Fallback Baseline Build Guide.md:335: ### P6. Tier C trained detector
+Temple XAI Fallback Baseline Build Guide.md:337: Task P6: templexai/detect/yolo.py and notebooks/train_yolo.ipynb.\
+Temple XAI Fallback Baseline Build Guide.md:345: ### P7. IKS knowledge layer and explanations
+Temple XAI Fallback Baseline Build Guide.md:347: Task P7: templexai/knowledge/.\
+Temple XAI Fallback Baseline Build Guide.md:360: ### P8. Ablation and robustness
+Temple XAI Fallback Baseline Build Guide.md:362: Task P8: experiments/.\
+Temple XAI Fallback Baseline Build Guide.md:372: ### P9. Backend
+Temple XAI Fallback Baseline Build Guide.md:374: Task P9: templexai/api/ with FastAPI.\
+Temple XAI Fallback Baseline Build Guide.md:381: ### P10. Frontend
+Temple XAI Fallback Baseline Build Guide.md:383: Task P10: web/ with Vite + React + TypeScript + Tailwind.\
+Temple XAI Fallback Baseline Build Guide.md:390: ## Demo and testing checklist
+Temple XAI Fallback Baseline Build Guide.md:432: ## Credits and licences
+Temple XAI Fallback Baseline Build Guide.md:454: ## Troubleshooting

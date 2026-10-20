@@ -1,0 +1,6 @@
+{
+ "cuda_available": false,
+ "torch": "2.14.1",
+ "device_name": null,
+ "mps_available": true
+}

@@ -1,0 +1,17 @@
+# Component vocabulary and traditions. Content is filled by templexai.knowledge.compile_taxonomy (P7, BUILD phase)
+# from fetched sources only; empty fields stay empty until then.
+knowledge_mode: MACHINE_COMPILED
+components:
+  shikhara:    {display_name: Shikhara,         definition: null, visual_cues: [], sources: [], prompts: ["temple tower", "curvilinear tower", "temple spire"]}
+  vimana:      {display_name: Vimana,           definition: null, visual_cues: [], sources: [], prompts: ["pyramidal temple tower", "stepped temple tower"]}
+  gopuram:     {display_name: Gopuram,          definition: null, visual_cues: [], sources: [], prompts: ["gateway tower", "temple entrance tower", "gopuram"]}
+  mandapa:     {display_name: Mandapa,          definition: null, visual_cues: [], sources: [], prompts: ["pillared hall", "temple porch with pillars", "mandapa"]}
+  pillar:      {display_name: Pillar,           definition: null, visual_cues: [], sources: [], prompts: ["stone pillar", "carved stone column"]}
+  jagati_base: {display_name: Jagati / base,    definition: null, visual_cues: [], sources: [], prompts: ["raised platform", "temple base", "stone plinth"]}
+  amalaka:     {display_name: Amalaka,          definition: null, visual_cues: [], sources: [], prompts: ["ribbed stone disc on temple tower", "amalaka"]}
+traditions:
+  Nagara:        {display_name: Nagara,                 definition: null, visual_cues: [], sources: []}
+  Dravida:       {display_name: Dravida,                definition: null, visual_cues: [], sources: []}
+  Deccan_Vesara: {display_name: Deccan / Vesara,        definition: null, visual_cues: [], sources: []}
+# Component feature-vector order (fixed, documented): for each component in the order above:
+# present, max_score, count, total_rel_area, centroid_y_of_largest, aspect_of_largest

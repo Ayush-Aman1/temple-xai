@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+node_modules/
+dist/
+# big / regenerable data
+data/raw/
+data/cache/
+data/images/
+data_smoke/
+artifacts_smoke/
+kaggle/dataset/images/
+artifacts/raw/*
+!artifacts/raw/j2_classifiers/
+artifacts/raw/j2_classifiers/*/best.pt
+!artifacts/raw/j2_classifiers/A_efficientnet_b0_s*/best.pt
+runs/
+# secrets
+config/notify.env
+.env
+kaggle.json
+addons/*/images/
+
+# add-on kit image copies (regenerable: python -m templexai.addons.build_kits)
+addons/*/images/
+
+.claude/

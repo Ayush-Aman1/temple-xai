@@ -1,0 +1,166 @@
+{
+ "n_images": 940,
+ "n_temples": 54,
+ "compute": "mps",
+ "split": "test",
+ "gold_eval": "UNAVAILABLE",
+ "faithfulness": {
+  "deletion_auc_gradcam": {
+   "mean": 0.5271098230097565,
+   "ci95": [
+    0.4958607424965419,
+    0.5558883572845302
+   ],
+   "n": 940
+  },
+  "deletion_auc_random": {
+   "mean": 0.7579812923131194,
+   "ci95": [
+    0.7298677305705298,
+    0.7841224477369709
+   ],
+   "n": 940
+  },
+  "insertion_auc_gradcam": {
+   "mean": 0.8641662232278783,
+   "ci95": [
+    0.8407185444720724,
+    0.8865689273026665
+   ],
+   "n": 940
+  },
+  "insertion_auc_random": {
+   "mean": 0.757287677448921,
+   "ci95": [
+    0.7168719880053377,
+    0.7928586467802257
+   ],
+   "n": 940
+  },
+  "deletion_gradcam_lower_than_random_share": 0.9148936170212766,
+  "insertion_gradcam_higher_than_random_share": 0.8372340425531914,
+  "note": "deletion: lower AUC = more faithful; insertion: higher = more faithful. Probability of the originally predicted class."
+ },
+ "component_occlusion": {
+  "mean_drop_component": {
+   "mean": 0.22002681781073594,
+   "ci95": [
+    0.18735795754627393,
+    0.25521559204752936
+   ],
+   "n": 1308
+  },
+  "mean_drop_random_equal_area": {
+   "mean": 0.20086136862453335,
+   "ci95": [
+    0.16972890051826953,
+    0.23182441494131129
+   ],
+   "n": 1308
+  },
+  "paired_difference": {
+   "mean": 0.019165449186202582,
+   "ci95": [
+    0.0061672977700668275,
+    0.035592445776311626
+   ],
+   "n": 1308
+  },
+  "component_drop_gt_random_share": 0.4304281345565749,
+  "mean_drop_if_component_linked_to_prediction": 0.343556027021981,
+  "mean_drop_if_not_linked": 0.0409788628865717
+ },
+ "shap_knowledge_alignment": {
+  "top_shap_component_is_linked_to_predicted_tradition": {
+   "mean": 0.7709677419354839,
+   "ci95": [
+    0.7293850806451614,
+    0.8087574777753248
+   ],
+   "n": 620
+  },
+  "random_component_baseline": {
+   "mean": 0.7277956989247312,
+   "ci95": [
+    0.7015069758686262,
+    0.7549098588915506
+   ],
+   "n": 620
+  },
+  "n_images_with_linked_component": 620,
+  "n_images_with_components": 802,
+  "note": "SHAP of the components-only gradient-boosting model; baseline = chance that a random present component is linked."
+ },
+ "shap_component_deletion": {
+  "auc_by_shap_order": 0.4046078267019902,
+  "auc_random_order": 0.4395495741991025,
+  "note": "parts-model class probability as components are removed; lower AUC = SHAP order is more faithful."
+ },
+ "gradcam_detector_agreement": {
+  "note": "AGREEMENT of Grad-CAM with the detector's boxes, not correctness (no gold boxes).",
+  "cam_peak_in_any_detected_box": {
+   "mean": 0.7681347150259067,
+   "ci95": [
+    0.7167994630872483,
+    0.8185937732887941
+   ],
+   "n": 772
+  },
+  "box_area_share_chance": {
+   "mean": 0.6165918010915912,
+   "ci95": [
+    0.5561955166834696,
+    0.6716566787448305
+   ],
+   "n": 772
+  },
+  "cam_peak_in_linked_box": {
+   "mean": 0.8035714285714286,
+   "ci95": [
+    0.7438569078947368,
+    0.8544567779430463
+   ],
+   "n": 616
+  },
+  "linked_area_share_chance": {
+   "mean": 0.6159013580278229,
+   "ci95": [
+    0.5541613664590158,
+    0.6687118947203643
+   ],
+   "n": 616
+  },
+  "cam_energy_in_boxes": {
+   "mean": 0.7061599632975484,
+   "ci95": [
+    0.6512253112979525,
+    0.7552610211865324
+   ],
+   "n": 771
+  },
+  "box_area_share_for_energy": {
+   "mean": 0.6173915310540964,
+   "ci95": [
+    0.557603326717917,
+    0.6722795561442421
+   ],
+   "n": 771
+  }
+ },
+ "gold": {
+  "status": "available with the gold-set add-on (HUMAN_ADDONS.md): pointing game, energy pointing, explanation IoU, detector mAP vs gold boxes"
+ },
+ "provenance": {
+  "label_mode": "RULE_BASED",
+  "knowledge_mode": "MACHINE_COMPILED",
+  "detector_mode": "DISTILLED",
+  "gold_eval": "UNAVAILABLE",
+  "models": {
+   "classifier": "artifacts/j2/A_efficientnet_b0 backbone + artifacts/p4/fusion.pt",
+   "detector": "artifacts/j3/detector_best.pt",
+   "parts_model": "artifacts/p4/parts_gb.pkl"
+  },
+  "data_hash": "63eb7764e2562b78",
+  "git_commit": "6882c72"
+ }
+}
